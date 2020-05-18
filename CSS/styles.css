@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    padding: 40px  0;
+}
+
+
+.navList{
+list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0;
+}
+
+.navListItem{
+    --border-color-value:#36885d;
+    --background-color-value: #41996f;
+
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border: 1px solid var(--border-color-value);
+    background-color: var(--background-color-value);
+}
+
+.navListItem:hover{
+    background-color: var(--border-color-value);
+}
+
+.navListItem:hover>.navList--submenu{
+    display: block;
+}
+
+.navLink{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+    padding: 20px;
+    min-width: 200px;
+    font-size: 1.4rem;
+}
+
+.navList--submenu {
+    position: absolute;
+    top:100%;
+    left:0;
+    display: none;
+}
+
+
+.navList--submenu2 {
+    top:0;
+    left:100%;
+}
+
