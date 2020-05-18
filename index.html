@@ -2,10 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CSS Navigation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+
 </head>
 <body>
-
+<nav class="navList">
+    <ul>
+        <li class="navListItem"><a class="navLink" href="#">Home</a></li>
+        <li class="navListItem">
+            <a class="navLink" href="#">Categories</a>
+            <ul class="navList--submenu">
+                <li class="navListItem"><a href="#" class="navLink">Men</a></li>
+                <li class="navListItem">
+                    <a href="#" class="navLink">Women</a>
+                    <ul class="navList--submenu navList--submenu2">
+                        <li class="navListItem"><a href="#" class="navLink">Dress</a></li>
+                        <li class="navListItem"><a href="#" class="navLink">Pants</a></li>
+                        <li class="navListItem"><a href="#" class="navLink">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="navListItem"><a href="#" class="navLink">Kids</a></li>
+            </ul>
+        </li>
+        <li class="navListItem"><a class="navLink" href="#">About</a></li>
+        <li class="navListItem"><a class="navLink" href="#">Contacts</a></li>
+    </ul>
+</nav>
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur atque autem blanditiis delectus et nulla
+    omnis? Aliquid, commodi consectetur culpa dolor ducimus ex in ipsam nemo nesciunt odit optio perferendis porro quam
+    quasi quisquam quo rem sequi velit vitae voluptate! Accusantium aliquam aspernatur aut, beatae culpa delectus
+    doloremque eligendi est ex fugit illo laboriosam magnam maxime minima minus, nam nulla odio quasi qui, reiciendis
+    repudiandae similique tempore voluptate? A accusamus delectus dolorem ducimus ea excepturi exercitationem explicabo
+    illum inventore laboriosam magnam maiores necessitatibus nostrum, nulla officiis praesentium, ratione repudiandae
+    suscipit unde, veritatis. Ducimus exercitationem facere, iure odio quis quod.</p>
 </body>
 </html>
